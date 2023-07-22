@@ -1,0 +1,30 @@
+<header>
+    <img id="profile" src="img/profilePhoto.png" alt="profile photo">
+    <p id="name">Rodney Cotton</p>
+    <p id="local">Helsinki, Finland</p>
+    <div id="info">
+      <div class="post">
+        <p class="number">100</p>
+        <p class="text">Posts</p>
+      </div>
+      <div class="post">
+        <p class="number">2,242</p>
+        <p class="text">Follower</p>
+      </div>
+      <div class="post">
+        <p class="number">1,432</p>
+        <p class="text">Following</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <img src="img/photo1.png" alt="photo1">
+    <img src="img/photo2.png" alt="photo2">
+    <img src="img/photo3.png" alt="photo3">
+    <img src="img/photo4.png" alt="photo4">
+    <img src="img/photo5.png" alt="photo5">
+    <img src="img/photo6.png" alt="photo6">
+  </main>
+  <footer>
+    <p>created by douglas jpg - devChallenges.io</p>
+  </footer>

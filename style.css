@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+:root{
+    --white: #f4f4f4;
+    --gray-1: #E5E5E5;
+    --gray-2: #bdbdbd;
+    --gray-3: #a9a9a9;
+    --gray-4: #4E5150;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--white);
+    color: var(--gray-4);
+    font-family: 'Montserrat', sans-serif;
+    font-size: max(0.6rem, 1.3vw);
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px auto;
+}
+
+#profile, #name, #local{
+    margin: 5px 0;
+    color: var(--gray-3); 
+}
+
+#profile{
+    height: 12vw;
+    width: 12vw;
+    min-height: 70px ;
+    min-width: 70px;
+    border-radius: 16px;
+}
+
+#name{
+    color: var(--gray-4);
+    font-size: max(0.9rem, 1.8vw);
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    height: 10vh;
+    width: 60%;
+    margin: 32px auto;
+    
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 13%;
+    min-width: 50px;
+    background: var(--gray-1);
+    border-radius: 12px;
+}
+
+.text{
+    color: var(--gray-2);
+    font-size: max(0.6rem, 1vw);
+}
+
+main{
+    width: 70%;
+    margin: 32px auto 15px auto;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    gap: 3%;
+}
+
+
+.img-gallery{
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.item-galley{
+    overflow: hidden;
+}
+
+.item1{
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+}
+
+.item2{
+    grid-column: 4 / span 6;
+    grid-row: 1 / span 3;
+}
+
+.item3{
+    grid-column: 1 / span 6;
+    grid-row: 4 / span 3;
+}
+
+.item4{
+    grid-column: 7 / span 3;
+    grid-row: 4 / span 6;
+}
+
+.item5{
+    grid-column: 4 / span 3;
+    grid-row: 7 / span 3;
+}
+
+.item6{
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 3;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: max(0.5rem, 1.2vw);
+}
