@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://douglas-jpg.github.io/My-gallery/">
       Demo
     </a>
     <span> | </span>
@@ -29,7 +29,8 @@
 
 ## Overview
 
-![image](https://github.com/douglas-jpg/recipe-page/assets/57305990/6e232766-661a-4b20-b59e-8d441df409f6)
+![image](https://github.com/douglas-jpg/My-gallery/assets/57305990/6d3439f5-d265-4ad7-ab12-05d6e2272dad)
+
 
 
 ## Features
